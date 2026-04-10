@@ -1,4 +1,5 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %}
+{% block content %}
 <h1>Manufacturer list</h1>
 
 {% if manufacturer_list %}
@@ -7,4 +8,5 @@
   <li>{{ manufacturer.name }} {{ manufacturer.country }}</li>
   {% endfor %}
 </ul>
-{% endif %} {% endblock %}
+{% endif %}
+{% endblock %}
